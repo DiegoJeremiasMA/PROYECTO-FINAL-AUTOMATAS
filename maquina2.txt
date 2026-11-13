@@ -1,0 +1,8 @@
+Estados(q0, q1, q2)
+Inicial(q0)
+Ha(q1)
+He(q2)
+Alfabeto(0, 1, -)
+MT(q0, 0) = (q0, 1, D)
+MT(q0, 1) = (q0, 0, D)
+MT(q0, -) = (q1, -, N)
